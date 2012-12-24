@@ -3,7 +3,7 @@ package org.endeios.bridge;
 public class MyReciverObject {
 	private Client client ;
 	public MyReciverObject() {
-		client = new Client("a", 1000);
+		client = new Client("localhost", 1000);
 	}
 	
 	public void doSomething(){
